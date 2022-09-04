@@ -1,0 +1,28 @@
+*{
+    font-family: 'Noto Sans TC';
+    background-color: #4d4d4d;
+}
+.head{
+    color: #55aaff;
+    font-size:64px;
+    text-align: center;
+}
+.enter{
+    color:#fff;
+    text-decoration: none;
+    background-color: #55aaff;
+    border-radius:5px;
+    font-size:50px;
+    justify-content: center;
+}
+.enter:hover{
+    cursor: pointer;
+    color:#55aaff;
+    background-color: #fff;
+    transition:.5s ease;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
