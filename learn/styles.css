@@ -1,0 +1,61 @@
+.sidenav{
+    height:100%;
+    width:100px;
+    position:fixed;
+    background-color: #444;
+    margin:0px;
+    color: #fff;
+    left:0px;
+    top:0px;
+    transition: 0.25s ease;
+}
+.menuitemtext{
+    background-color: #444;
+    text-align: center;
+    font-size:35px;
+    display: flex;
+    justify-content: center;
+}
+.menuitem{
+    background-color: #444;
+}
+.hide:hover{
+    cursor: pointer;
+}
+.open{
+    font-size:35px;
+    background-color:#888;
+    border-radius:5px;
+    color:white;
+    cursor: pointer;
+}
+.profile {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to bottom right,#ffbf00,#9000ff);
+    border-radius: 50%;
+    justify-content: center;
+    margin-left:15px;
+    transition:0.5s;
+}
+*{
+    background-color:#4d4d4d;
+    font-family:"Noto Sans TC"
+}
+
+
+.loader {
+    width: 52px;
+    height: 52px;
+    background-color: #55aaff;
+    position: relative;
+    animation:load 1s infinite;
+  }
+  
+  @keyframes load {
+    0%   {left:0px; top:0px;}
+    25%  {left:50px; top:0px;}
+    50%  {left:50px; top:50px;}
+    75%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+  }
