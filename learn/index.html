@@ -5,16 +5,36 @@
     <title>Learning Portal</title>
     <link rel="stylesheet" href="./styles.css"/>
     <link rel="stylesheet" href="../font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="./index.js"></script>
+
 </head>
-    <div class="container"></div>
+<body id = "body">
+    <div class="loadcontainer">
+    <p id="loader" class="loader"></p>
+    </div>
+    <div id="page">
+    
     <div id="sidenav"class="sidenav">
         <ul style="list-style-type:none;padding:0">
             <li id = "hidemenu" class = "menuitem menuitemtext hide">✕</li>
             <li class="menuitem">
                 <div id= "profile "class="profile"><p></p></div>
             </li>
+            <li class="menuitem" style="justify-content:center;" id="learn">
+                <svg style="background-color:#444"xmlns="http://www.w3.org/2000/svg" height="70" width="70" fill="white" viewBox="4.5 1.5 51 49"><path d="m23.95 42-14.5-7.95v-12L2 18 23.95 6 46 18v15.85h-3v-14.1l-4.55 2.3v12Zm0-15.4L39.7 18 23.95 9.55 8.3 18Zm0 12 11.5-6.35v-8.4L23.95 30l-11.5-6.25v8.5Zm.05-12Zm-.05 3.7Zm0 0Z"/></svg>
+            </li>
         </ul>
+        
     </div>
     <btn class="open" id="open">開啟</btn>
+    <div id = "learncontainer" >
+        <h2 style="text-align: center;color:white">Courses</h2>
+        <div class="courselist">
+            <div class="courseitem">aaaaa</div>
+        </div>
+    </div>
+    
+</div>
+</body>
 </html>
